@@ -1,0 +1,32 @@
+Jurong Logistics Optimization — Academic Codebase
+=================================================
+
+Purpose
+-------
+Reproducible pipeline for route-level logistics optimization using Python and AMPL.
+The implementation focuses on clarity and reproducibility rather than GUI polish.
+
+Repository layout
+-----------------
+- scripts/generate_routes.py        Generate clustered route summaries (CSV)
+- scripts/solve_milp.py             Compute per-route metrics and solve route-selection MILP
+- scripts/sensitivity_analysis.py   Sensitivity sweeps for key parameters
+- models/routes_opt.mod             AMPL model (route selection with integer trips)
+- data/                             Input/output CSV files
+- report/abstract.txt               Short academic abstract
+
+How to run
+----------
+1. Generate route data:
+   python scripts/generate_routes.py --num_customers 30 --clusters 10 --total_weight 80
+
+2. Solve route-selection (enumeration for small number of routes):
+   python scripts/solve_milp.py
+
+3. Run sensitivity analysis:
+   python scripts/sensitivity_analysis.py
+
+Remarks
+-------
+- This code uses synthetic customer positions. Replace data files with real coordinates for production use.
+- For full VRP (sequencing decisions) a different MILP formulation is required.
