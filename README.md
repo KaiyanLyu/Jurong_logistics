@@ -4,7 +4,7 @@ Jurong Logistics Optimization
 Purpose
 -------
 Reproducible pipeline for route-level logistics optimization using Python and AMPL.
-The implementation focuses on clarity and reproducibility rather than GUI polish.
+The implementation focuses on clarity and reproducibility.
 
 Repository layout
 -----------------
