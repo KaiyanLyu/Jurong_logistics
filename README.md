@@ -1,4 +1,4 @@
-Jurong Logistics Optimization — Academic Codebase
+Jurong Logistics Optimization
 =================================================
 
 Purpose
