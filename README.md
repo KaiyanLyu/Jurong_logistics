@@ -12,8 +12,6 @@ Repository layout
 - scripts/solve_milp.py             Compute per-route metrics and solve route-selection MILP
 - scripts/sensitivity_analysis.py   Sensitivity sweeps for key parameters
 - models/routes_opt.mod             AMPL model (route selection with integer trips)
-- data/                             Input/output CSV files
-- report/abstract.txt               Short academic abstract
 
 How to run
 ----------
