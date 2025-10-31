@@ -1,0 +1,10 @@
+set ROUTES := 1;
+param route_dist := 1 34.2;
+param route_load := 1 9.888;
+param cap_small := 10;
+param p_fuel := 8;
+param fuel_rate_small := 0.12;
+param C_fix := 400;
+param w_piece := 0.02;
+param c_piece := 6;
+param longhaul_cost := 17600;
