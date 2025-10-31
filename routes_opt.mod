@@ -1,1 +1,0 @@
-# AMPL MILP model code (placeholder)
