@@ -1,2 +1,0 @@
-route_id,num_customers,route_distance_km,load_tons,trips_needed,fuel_L,fuel_cost_RMB,fixed_cost_RMB,piece_count,piece_cost_RMB,total_cost_RMB,CO2_kg,visit_order
-1,3,34.2,9.888,1,4.10,32.8,400,494,2964,3404.44,13.55,'[1,2,3]'
