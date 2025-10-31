@@ -28,5 +28,4 @@ How to run
 
 Remarks
 -------
-- This code uses synthetic customer positions. Replace data files with real coordinates for production use.
 - For full VRP (sequencing decisions) a different MILP formulation is required.
