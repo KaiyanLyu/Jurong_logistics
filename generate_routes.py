@@ -1,8 +1,3 @@
-"""Generate clustered route summaries for Jurong last-mile simulation.
-Produces a CSV of route-level records: route_id, route_distance_km, load_tons, num_customers, visit_order.
-Intended for use as input to MILP models (AMPL) and for downstream analysis.
-"""
-
 import math
 import random
 import argparse
