@@ -1,8 +1,3 @@
-"""Sensitivity analysis for selected routes.
-Varies fuel price, fixed cost, and road factor.
-Outputs sensitivity_results.csv.
-"""
-
 import pandas as pd
 
 def load_selected(path='../data/selected_routes_solution.csv'):
