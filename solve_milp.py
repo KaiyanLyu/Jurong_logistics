@@ -1,7 +1,3 @@
-"""Solve route-selection MILP using enumeration or CP-SAT (if available).
-Generates selected_routes_solution.csv and an AMPL .dat file for routes.
-"""
-
 import math
 import argparse
 import pandas as pd
