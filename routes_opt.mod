@@ -1,6 +1,3 @@
-# routes_opt.mod
-# AMPL MILP: select precomputed routes and assign integer trips to cover total demand
-
 set ROUTES;
 param route_dist{ROUTES};
 param route_load{ROUTES};
